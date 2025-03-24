@@ -29,3 +29,8 @@ class Solution:
                 index1 = nums_offset.index(target_offset_half - candidate)
                 index2 = nums_offset.index(target_offset_half + candidate)
                 return [index1, index2]
+            
+    def isPalindrome(self, x: int) -> bool:
+        x_str = f"{x}"
+        rts_x = x_str[::-1]
+        return x_str == rts_x
