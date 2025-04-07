@@ -1,4 +1,4 @@
-class Solution:    
+class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         min = nums[0]
         for number in nums:
