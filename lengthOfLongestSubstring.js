@@ -19,5 +19,3 @@ var lengthOfLongestSubstring = function(s) {
     }
     return ans.length;
 };
-
-lengthOfLongestSubstring("pwwkew");
